@@ -1,3 +1,5 @@
+import RegisterForm from "./layouts/registerForm";
+
 function App() {
   return (
     <div data-theme=""className="min-h-screen">
@@ -14,6 +16,10 @@ function App() {
 <button className="btn btn-ghost">Ghost</button>
 <button className="btn btn-link">Link</button>
   </div>
+  <hr />
+  <RegisterForm/>
+    
+
   </div>
   );
 }
